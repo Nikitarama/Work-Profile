@@ -1,0 +1,173 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Silkscreen&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Lobster&family=Silkscreen&display=swap');
+
+* {
+  padding: 0px;
+  margin: 10px;
+  font-family: 'Times New Roman', serif;
+ 
+}
+  
+  header {
+    background: blue;
+  }
+  
+  body {
+    background:gray;
+    background-image:url(/pics/wintermountains.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+  }
+  
+  .topnav {
+    
+    height:46px;
+    background:rgba(0,0,0,0.2);
+    /*border-bottom:  7px solid rgba(0,0,0,0.5);*/
+  }
+  
+  .topnav h1 {
+    margin:0;
+    padding:0;
+    color:#F4EDED;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 6px;
+    display:inline-block;
+    margin-left:21%;
+    /*text-shadow: 0px 0px 10px cyan;*/
+  }
+
+  a {
+    margin:0;
+    padding:8px;
+    font-size: 20px;
+    font-family: sans serif;
+    letter-spacing: 4px;
+    text-decoration:none;
+    color:#F4EDED;
+    /*text-shadow: 0px 0px 10px cyan;*/
+    text-transform: uppercase;
+    
+  }
+
+  a:hover {
+    text-shadow: 0px 0px 20px cyan;
+    box-shadow: 0 0 3px rgba(0,0,0,0.1);
+  }
+  
+  .search-bar {
+    margin:0px;
+    padding:0px;
+    float:right;
+  }
+  .search-bar input[type="Search"]{
+    background:rgba(0,0,0,0.2);
+    border: 0px solid rgba(0,0,0,0.1);
+    border-radius: 0px;
+    width:200px;
+    height: 25px;
+    letter-spacing: 3px;
+    font-size: 12px;
+
+  }
+
+  .topnav button {
+    background:rgb(3, 177, 177, 0.5);
+    width:50px;
+    height:25px;
+    border: 0px solid rgba(0,0,0,0.1);
+    border-radius:0px;
+    letter-spacing: 1px;
+    font-size: 12px;
+  }
+  
+  button:hover {
+    background:cyan;
+    box-shadow: 0px 0px 5px cyan;
+  }
+  
+  .logIn {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:350px;
+    height:450px;
+    padding:80px 40px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.2);
+  }
+  
+  h2 {
+    margin:0;
+    padding:0;
+    text-align:center;
+    font-family: 'Lobster', cursive;
+   /* text-shadow: 0px 0px 9px cyan;*/
+    color: #F4EDED;
+    letter-spacing: 2px;
+  }
+  
+  .logIn p {
+    margin:0;
+    padding:0;
+    font-family: 'DM Serif Display', serif;
+    font-weight:bold;
+    font-size: 18px;
+  }
+  
+  .logIn input {
+    width:100%;
+    margin-bottom:20px;
+  }
+  
+  .logIn input[type="text"], .logIn input[type="@text"], .logIn input[type="password"]
+  {
+    border:none;
+    border-bottom:1px solid cyan;
+    background:transparent;
+    outline:none;
+    color:aliceblue;
+    font-size:16px;
+    
+  }
+  
+  .logIn input[type="submit"]
+  {
+    border:none;
+    outline:none;
+    height:25px;
+    color:black;
+    font-size:15px;
+    background: rgba(0, 255, 255, 0.658);
+    cursor:pointer;
+    border-radius:0px;
+  }
+  
+  .logIn input[type="submit"]:hover 
+  {
+    background:cyan;
+    box-shadow: 0px 0px 6px cyan;
+  }
+  
+  .logIn a {
+    color:black;
+
+    font-size:14px;
+    font-weight:bold;
+  }
+  
+  ::placeholder {
+    color: rgba(255,255,255,0.5);
+  }
+  
+  .gif {
+    width:130px;
+    height:120px;
+    overflow:hidden;
+    position:absolute;
+    top:calc(150px/2);
+    left:calc(49% - 50px);
+    border-radius:50%;
+    z-index:1;
+  }

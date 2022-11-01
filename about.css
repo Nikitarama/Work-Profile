@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=DM+Serif+Display:ital@1&family=Lobster&family=Silkscreen&display=swap');
+* {
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+body {
+    display:static;
+    background:black;
+    background-image:url(/pics/earthfantasy.jpg);
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+
+.topnav a {
+    color: rgba(255,255,255,0.5);
+    padding:30px;
+    text-decoration:none;
+    font-size:20px;
+    font-family: 'Space Mono', monospace;
+    letter-spacing: 2px;
+
+}
+
+.topnav {
+    margin:5px;
+    padding:0;
+    position:absolute;
+    width:100%;
+    box-sizing: border-box;
+}
+
+.search-bar {
+    position:relative;
+    margin:7px;
+    float:right;
+    background: rgba(0,0,0,0.5);
+}
+
+.search-bar button {
+    background: #877666;
+}
+
+.search-bar input[type="search"]
+{   
+    border: 0 solid rgba(0, 0, 0, 0.2);
+    background: rgba(0,0,0,0.2);
+}
+
+
+.topnav a:hover {
+    color:aliceblue;
+    text-shadow: 0 0 10px aliceblue;
+}
+
+button input[type="Search"]
+{   
+    
+    font-family: 'Space Mono', monospace;
+    color:aliceblue;
+    background:#877666;
+}
+
+.search-bar button:hover {
+    background:#F4EDED;
+    border:2px solid aliceblue;
+    box-shadow: 0px 0px 50px aliceblue;
+}
+
+.social-icons {
+    margin:0;
+    padding:0;
+    margin-top:190px;
+    
+}
+
+.social-icons i{
+    margin:0;
+    padding:0;
+      
+}
+
+.social-icons a {
+    text-decoration: none;
+    color:rgba(255,255,255,0.5);
+}
+
+ul {
+    margin:0;
+    padding:0;
+}
+
+ul li {
+    margin:0;
+    padding:0;
+    position:-webkit-sticky;
+    display:inline-flexbox;
+    color:#666;
+    font-size: 25px;
+    height:50px;
+    width:50px;
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+    line-height:50px;
+    border-radius: 50%;
+    /*space between icons*/
+    margin:10px 15px;
+    cursor:pointer;
+}
+
+ul li:before {
+    margin:0;
+    padding:0;
+    position:relative;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    text-align: center;
+    border-radius:50%;
+    z-index:1;
+    transform:scale(0.9);
+    transition: .5s;
+}
+
+ul li:nth-child(1):before {
+    background:rgba(0,0,0,0.5);
+}
+
+ul li:nth-child(2):before {
+    background:rgba(0,0,0,0.5)
+}
+
+ul li:nth-child(3):before {
+    background:rgba(0,0,0,0.5)
+}
+
+ul li:nth-child(4):before {
+    background:rgba(0,0,0,0.5);
+}
+
+ul li:hover:before {
+    position:relative;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    text-align: center;
+    border-radius:50%;
+    z-index:1;
+    transform:scale(0);
+    transition:0;
+}
+
+ul li:hover {
+    translate:calc(50% 50%);
+    transform:scale(1.1);
+}
+
+ul li:nth-child(1):hover {
+    
+    color:lightblue;
+    box-shadow: 0 0 10px lightblue;
+    text-shadow: 0 0 5px lightblue;
+}
+
+ul li:nth-child(2):hover {
+    color:blue;
+    box-shadow: 0 0 10px blue;
+    text-shadow: 0 0 5px blue;
+}
+
+ul li:nth-child(3):hover {
+    color:pink;
+    box-shadow: 0 0 10px pink;
+    text-shadow: 0 0 5px pink;
+}
+
+ul li:nth-child(4):hover {
+    color:purple;
+    box-shadow: 0 0 10px purple;
+    text-shadow: 0 0 5px purple;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 250px;
+    width:20%;
+    margin: auto;
+    margin-top: -350px;
+    text-align: center;
+  }
+
+.card h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 33px;
+    color:gainsboro;
+}
+  
+  .title {
+    color: black;
+    font-size: 18px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    font-family: 'Lobster', cursive;
+  }
+  
+  .card a {
+    text-decoration: none;
+    font-size: 22px;
+    color: grey;
+  }
+
+  button:hover  {
+    
+    background: black;
+    text-shadow: 0 0 2px aliceblue;
+  }
+
+  .card a:hover {
+    opacity: 0.7;
+  }
+
+  .card p {
+    margin: 0;
+    padding:2px;
+    word-spacing: 3px;
+  }
