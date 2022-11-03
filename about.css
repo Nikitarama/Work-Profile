@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=DM+Serif+Display:ital@1&family=Lobster&family=Silkscreen&display=swap');
+
 * {
     margin:0;
     padding:0;
     list-style:none;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -32,9 +37,10 @@ body {
 }
 
 .search-bar {
-    position:relative;
-    margin:7px;
+    position:static;
+    margin:0px;
     float:right;
+    width:20%;
     background: rgba(0,0,0,0.5);
 }
 
@@ -44,7 +50,7 @@ body {
 
 .search-bar input[type="search"]
 {   
-    border: 0 solid rgba(0, 0, 0, 0.2);
+    border: 2px solid rgba(0, 0, 0, 0.2);
     background: rgba(0,0,0,0.2);
 }
 
@@ -185,10 +191,10 @@ ul li:nth-child(4):hover {
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 250px;
+    max-width: 240px;
     width:20%;
     margin: auto;
-    margin-top: -350px;
+    margin-top: -360px;
     text-align: center;
   }
 
@@ -235,13 +241,102 @@ ul li:nth-child(4):hover {
 
   .card p {
     margin: 0;
-    padding:2px;
+    padding:0;
     word-spacing: 3px;
   }
 
 div {
-    margin:10px;
+    margin:0;
+    margin-top: 120px;
     padding:0;
     display: block;
-    width: 5em;
+    width: 6em;
+    
+}
+
+.col-sm-2 {
+    margin:0;
+    padding:2px;
+    border: 0px solid rgba(250, 246, 246, 0.1);
+    display: box;
+    align-content: center;
+    position: relative;
+    background-color: rgba(250, 246, 246, 0.1);
+    border-radius: 12px;
+    overflow: hidden;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.container-fluid {
+    margin:5px;
+    margin-top: 0%;
+    box-sizing: border-box;
+    
+}
+
+.row {
+    margin:10px;
+    margin-top: -5%;
+}
+
+#skills ol {
+    display:flex;
+     flex-wrap: wrap;
+}
+
+#skills {
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+    display: flex;
+    background-image: url(/pics/saturn\ from\ earth.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+   
+}
+
+.col-sm-2, h3, p {
+    color: #F4EDED;
+}
+
+#education {
+    margin:0;
+    padding:5px;
+    width:100%;
+    height:300px;
+    display:flex;
+    grid-template-columns: auto auto auto;
+    background:#666;
+    flex-direction: row;
+    align-items: center;
+    align-items: flex-start;
+}
+
+#education p {
+    border:1px solid black;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+#testimonials {
+    padding:10px;
+    width:1300px;
+    height:500px;
+    display: flex;
+    float:left;
+    background-color: #877666;
+    flex-direction: row;
+    align-items: flex-start;
+    word-spacing: 5px;
+    border: 1px solid black;
+}
+
+#testimonials p {
+    border: 1px solid black;
+}
+
+#testimonials h3 {
+    border-bottom: 1px solid black;
 }
