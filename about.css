@@ -10,11 +10,12 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
+#content {
     display:static;
     background:black;
     background-image:url(/pics/earthfantasy.jpg);
     background-size:100%;
+    height:800px;
     background-repeat: no-repeat;
 }
 
@@ -289,7 +290,7 @@ div {
     margin:0;
     padding:0;
     width:100%;
-    height:100%;
+    height:1000px;
     display: flex;
     background-image: url(/pics/saturn\ from\ earth.jpg);
     background-size:cover;
