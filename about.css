@@ -42,10 +42,11 @@ a {
 }
 
 .search-bar {
-    position:static;
+    display: inline;
     margin:0px;
-    float:right;
-    width:fit-content;
+    top:0;
+    right:0;
+    width:50px;
     background: rgba(0,0,0,0.5);
 }
 
@@ -257,58 +258,32 @@ ul li:nth-child(4):hover {
     font-family: 'Times New Roman', Times, serif;
   }
 
-div {
-    margin:0;
-    margin-top: 10px;
-    padding:0;
-    display: block;
-    width: 6em;
-    
-}
 
-.col-lg-3 {
-    margin:0;
-    padding:2px;
-    border: 0px solid rgba(250, 246, 246, 0.1);
-    display: inline-block;
-    align-content: center;
-    position: relative;
-    background-color: rgba(250, 246, 246, 0.1);
-    border-radius: 12px;
-    overflow: hidden;
-    margin-left:auto;
-    margin-right:auto;
-    
-}   
-
-section #skills{
+ #skills{
     display:inline-block;
     justify-content: center;
     align-items: center;
     width:100%;
-    height:100vh;
+    height:100%;
 }
-
-section:nth-child #skills (odd){
+section:nth-child #skills {
     background-color: #2d2d2d;
 }
 
-.wrap {
+.container-fluid {
     margin:0;
     padding:0;
-    max-width:100%;
-    width:fit-content;
+    width:100%;
     display: inline-block;
     top:0;
     left:0;
-    
 }
 
 .bar {
     color:#666;
     letter-spacing: 1px;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 10px;
     position:relative;
 }
 
@@ -333,15 +308,15 @@ section:nth-child #skills (odd){
 }
 
 .bar:nth-child(1) span{
-    width:80%;
+    width:100%;
 }
 
 .bar:nth-child(2) span{
-    width:40%;
+    width:10%;
 }
 
 .bar:nth-child(3) span{
-    width:70%;
+    width:10%;
 }
 
 .bar abbr {
@@ -378,8 +353,8 @@ section:nth-child #skills (odd){
     padding:0;
     margin-top: 0%;
     box-sizing: border-box;
-    height: 300px;
-    width: 1000vh;
+    height: 100%;
+    width: 100%;
     display:inline-block;
 }
 
@@ -387,7 +362,7 @@ section:nth-child #skills (odd){
     margin:0;
     padding:0;
     width:100%;
-    height:1000px;
+    height:100%;
     display: flex;
     background-image: url(./pics/saturn\ from\ earth.jpg);
     background-size:cover;
@@ -395,78 +370,98 @@ section:nth-child #skills (odd){
    
 }
 
-li {
-    margin:0;
-    padding:0px;
-    width:100%;
-}
-
 #education {
     margin:0;
-    padding:0;
-    width:1300px;
-    height:600px;
+    padding:10px;
+    width:100%;
+    height:100%;
     display:flex;
-    gap:30px;
+    gap:50px;
     background:#666;
     align-items: center;
     
 }
 
 #education p {
-    border:1px solid black;
+    border:px solid black;
     width:300px;
     height: 100px;
 }
 
-.card-mb-3 {
-    
+.progress {
+    width:800px;
     border-radius: 50px;
     background-color: black;
 }
 
-.col-md-4 img {
-    max-width: 540px;
+.card-title{
+
+    font-size: 18px;
     width:300px;
-    height:300px;
+    height:30px;
 }
 
-.card-title{
-    font-size: 18px;
-    width:100px;
+#education h2 {
+    font-family: 'Lobster', cursive;
+    border-bottom: px solid black;
 }
 
 #testimonials {
+    margin:0;
     padding:0px;
-    width:1000px;
-    height:500px;
-    display: grid;
-    grid-template-rows: repeat(2, 1fr);
-    
+    width:100%;
+    height:100%;
     background-color: #877666;
     flex-direction: row;
     align-items: flex-start; 
     word-spacing: 5px;
-    border: 1px solid black;
+    border: px solid black;
     gap: 3rem;
    
 }
 
 #testimonials p {
-    border: 1px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    border: px solid black;
+    border-radius:
 }
 
-#testimonials h3 {
-    border-bottom: 1px solid black;
+.card-title {
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+    border-bottom: 2px solid black;
 }
 
 #testimonials .card {
     position: relative;
     display:flexbox;
-    width:300px;
+    width:400px;
     height:300px;
     gap:20px;
+    background-color: rgba(255,255,255,0.5);
 }
 
+.col .card {
+    box-sizing: border-box;
+    border-radius:10%;
+}
 
+.col h3 {
+    font-family: 'Lobster', cursive;
+    border-bottom:3px solid black;
+}
+
+.card img {
+    width:130px;
+    height:120px;
+    overflow:hidden;
+    border-radius:20%;
+}
+
+#container h2 {
+    color:black;
+    font-family: 'Lobster', cursive;
+    border-bottom: 3px solid black;
+    width:40%;
+}
 
