@@ -15,7 +15,7 @@ header {
   
   body {
     background:gray;
-    background-image:url(/pics/wintermountains.jpg);
+    background-image:url(./pics/wintermountains.jpg);
     background-size:cover;
     background-repeat: no-repeat;
   }
