@@ -266,6 +266,7 @@ ul li:nth-child(4):hover {
     width:100%;
     height:100%;
 }
+
 section:nth-child #skills {
     background-color: #2d2d2d;
 }
@@ -377,8 +378,9 @@ section:nth-child #skills {
     height:100%;
     display:flex;
     gap:50px;
-    background:#666;
-    align-items: center;
+    background-image:url(./pics/rising-cosmos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     
 }
 
@@ -423,7 +425,7 @@ section:nth-child #skills {
 #testimonials p {
     font-family: 'Times New Roman', Times, serif;
     border: px solid black;
-    border-radius:
+    
 }
 
 .card-title {
