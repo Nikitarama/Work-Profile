@@ -371,6 +371,18 @@ section:nth-child #skills {
    
 }
 
+.progress {
+    width:800px;
+    border-radius: 50px;
+    background-color: black;
+}
+
+.container-fluid h3 {
+    font-family: 'Lobster', cursive;
+    color:#877666;
+    border-bottom: px dotted #2db0d1;
+}
+
 #education {
     margin:0;
     padding:10px;
@@ -378,7 +390,7 @@ section:nth-child #skills {
     height:100%;
     display:flex;
     gap:50px;
-    background-image:url(./pics/rising-cosmos.jpg);
+    background-image:url(./pics/rednebula.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -386,26 +398,28 @@ section:nth-child #skills {
 
 #education p {
     border:px solid black;
+    color: #666;
     width:300px;
     height: 100px;
 }
 
-.progress {
-    width:800px;
-    border-radius: 50px;
-    background-color: black;
+
+#education .card {
+    background: rgba(0, 0, 0, 0.7);
 }
 
-.card-title{
-
+#education .card-title{
+    color: #9DB5B2;
     font-size: 18px;
     width:300px;
     height:30px;
+    letter-spacing: 1px;
 }
 
 #education h2 {
     font-family: 'Lobster', cursive;
-    border-bottom: px solid black;
+    border-bottom: px solid #877666;
+    color: #666;
 }
 
 #testimonials {
@@ -413,7 +427,9 @@ section:nth-child #skills {
     padding:0px;
     width:100%;
     height:100%;
-    background-color: #877666;
+    background-image: url(./pics/rising-cosmos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     flex-direction: row;
     align-items: flex-start; 
     word-spacing: 5px;
@@ -434,6 +450,10 @@ section:nth-child #skills {
     border-bottom: 2px solid black;
 }
 
+.card-text {
+    font-family: 'Times New Roman', Times, serif;
+}
+
 #testimonials .card {
     position: relative;
     display:flexbox;
@@ -444,13 +464,15 @@ section:nth-child #skills {
 }
 
 .col .card {
+
     box-sizing: border-box;
     border-radius:10%;
 }
 
 .col h3 {
     font-family: 'Lobster', cursive;
-    border-bottom:3px solid black;
+    color: #2db0d1;
+    border-bottom:3px solid aliceblue;
 }
 
 .card img {
@@ -461,9 +483,9 @@ section:nth-child #skills {
 }
 
 #container h2 {
-    color:black;
+    color: aliceblue;
     font-family: 'Lobster', cursive;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid #666;
     width:40%;
 }
 
